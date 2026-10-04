@@ -2,8 +2,6 @@
 
 A lightweight academic website for **Isaiah Gangadeen**.
 
-This version deliberately uses **plain HTML/CSS/JavaScript** instead of Jekyll, Ruby, or `al_folio_core`.
-That means there is no theme gem to install and no GitHub Actions build step is required.
 
 ## Files
 
@@ -16,32 +14,6 @@ That means there is no theme gem to install and no GitHub Actions build step is 
 - `assets/css/style.css` — all styling
 - `assets/js/main.js` — mobile navigation + footer year
 - `.nojekyll` — tells GitHub Pages not to run Jekyll
-
-## Publish on GitHub Pages
-
-### Option 1: repository named `YOURUSERNAME.github.io`
-
-1. Create a GitHub repository named exactly:
-   `YOURUSERNAME.github.io`
-2. Upload all files in this folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/(root)**
-5. Save.
-
-Your site will appear at:
-`https://YOURUSERNAME.github.io`
-
-### Option 2: any repository name
-
-For a repository such as `academic-website`, use the same Pages settings.
-GitHub will publish it at:
-
-`https://YOURUSERNAME.github.io/academic-website/`
-
-All links in this template are relative, so it works in either configuration.
 
 ## Before publishing
 
